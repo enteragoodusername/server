@@ -1,0 +1,3 @@
+[submodule "lib/wearableCommunication"]
+	path = lib/wearableCommunication
+	url = git@github.com:enteragoodusername/wearableCommunication.git
