@@ -17,11 +17,13 @@ Serial.begin(115200);
 }
 
 void loop() {
-  delay(1000);  
   if (digitalRead(34)){
     Serial.println("Pressed");
     server.send_alarm();
     delay(300);
+  }
+  if(digitalRead(13)){
+    server.send_heartbeat();
   }
 
 }
